@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name = "本地项目"  parallel = "false">
+    <test name = "xxx模块">
+        <classes>
+            <class name = "com.andy.cases.RegisterCase" />   <!-- 先跑什么脚本1 -->
+            <class name = "com.andy.cases.RegisterCase" />  /<!-- 再跑脚本2 -->
+        </classes>
+    </test>
+</suite>
